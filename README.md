@@ -1,8 +1,9 @@
-**Creational
+##Creational
 
-[Singleton] (creational/Singleton.php)
+- Singleton https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/Singleton.php
+- Factory Method https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/FactoryMethod.php
 
-**Sources
+##Sources
 
 https://www.script-tutorials.com/design-patterns-in-php/
 
