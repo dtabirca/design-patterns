@@ -10,8 +10,9 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+		<h2>Creational</h2>
+		<ul>
+			<li><a href="creational/Singleton.php">Singleton></a></li>
+		</ul>
     </body>
 </html>
