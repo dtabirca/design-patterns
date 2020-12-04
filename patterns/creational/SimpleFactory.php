@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
 /**
-* Factory Method Example
+* Simple Factory Example
 * 
 * @category Design_Patterns
 * @package  Creational

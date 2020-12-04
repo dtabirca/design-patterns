@@ -5,24 +5,12 @@
 
 ##Sources
 
-https://www.script-tutorials.com/design-patterns-in-php/
-
-https://buihuycuong.medium.com/the-23-gang-of-four-design-patterns-974ae8d1a957
-
-https://refactoring.guru/design-patterns/php
-
-https://designpatternsphp.readthedocs.io/en/latest/Creational/README.html
-
-https://webmobtuts.com/backend-development/creating-classes-with-php-factory-abstract-factory-simple-and-static-factory-patterns/
-
-https://en.wikipedia.org/wiki/Builder_pattern
-
-https://designpatternsphp.readthedocs.io/en/latest/Creational/SimpleFactory/README.html
-
-https://github.com/domnikl/DesignPatternsPHP
-
 https://phptherightway.com/
-
+https://designpatternsphp.readthedocs.io/
+https://refactoring.guru/design-patterns
+https://sourcemaking.com/design_patterns
+https://www.script-tutorials.com/design-patterns-in-php/
+https://en.wikipedia.org/wiki/Software_design_pattern
 
 **SHORT
 

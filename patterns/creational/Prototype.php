@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
 /**
- * Prototype Method
+ * Prototype Pattern
  * Prototype – a pre-initialized object that supports cloning
  * When your objects have dozens of fields and hundreds of possible configurations, cloning them might serve as an alternative to subclassing.
  *

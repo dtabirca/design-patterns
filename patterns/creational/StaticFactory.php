@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
 /**
-* Static Factory Method
+* Static Factory Example
 * 
 * @category Design_Patterns
 * @package  Creational

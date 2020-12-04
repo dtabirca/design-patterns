@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
 /**
- * Object Pool Method
+ * Object Pool Pattern
  * 
  * The Object Pool pattern uses a set of initialized objects kept ready to use (a "pool"), rather than creating and destroying them on demand. The Pool represents a collection of items.
  * 
