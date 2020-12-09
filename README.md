@@ -1,85 +1,62 @@
-##Creational
+## A collection of practical examples with explanations for a better understanding of design patterns
 
-- Singleton https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/Singleton.php
-- Factory Method https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/FactoryMethod.php
+## Sources
 
-##Sources
+https://en.wikipedia.org/wiki/Software_design_pattern  
+https://phptherightway.com/  
+https://designpatternsphp.readthedocs.io/  
+https://refactoring.guru/design-patterns  
+https://sourcemaking.com/design_patterns  
+https://www.script-tutorials.com/design-patterns-in-php/  
+https://en.wikipedia.org/wiki/Anti-pattern  
 
-https://phptherightway.com/
-https://designpatternsphp.readthedocs.io/
-https://refactoring.guru/design-patterns
-https://sourcemaking.com/design_patterns
-https://www.script-tutorials.com/design-patterns-in-php/
-https://en.wikipedia.org/wiki/Software_design_pattern
+## Creational
 
-**SHORT
+- Singleton - unique instance of a class - https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/Singleton.php
+- Factory Method - an object for creating other objects - https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/FactoryMethod.php https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/SimpleFactory.php https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/StaticFactory.php
+- Abstract Factory - collections of factories - https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/AbstrctFactory.php
+- Builder - complex objects step by step - https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/Builder.php
+- Object Pool - recycling objects - https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/ObjectPool.php
+- Prototype - ready to be cloned - https://github.com/dtabirca/design-patterns/blob/master/patterns/creational/Prototype.php
 
-CREATIONAL PATTERNS
-As a developer, we spend most of our time on creating classes and objects. Those patterns below can be used to get the job done effectively.
+## Structural
 
-Name - Purpose
+- Adapter (Wrapper/Translator/Gateway) - converts interfaces - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/Adapter.php
+- Bridge	- separates abstraction from implementation - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/Bridge.php
+- Composite - tree structures - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/Composite.php
+- Decorator -	add new behavior by wrapping - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/Decorator.php
+- Data Mapper - transfer between data storage and memory - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/DataMapper.php
+- Facade	- interface to a subsystem - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/Facade.php
+- Dependency Injection - inject instead of creating - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/DependencyInjection.php
+- Flyweight -	minimise memory, share common parts - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/Flyweight.php
+- Fluent Interface - chain method calls - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/FluentInterface.php
+- Proxy - substitute object with access to the original - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/Proxy.php
+- Registry - central storage for objects, singleton - https://github.com/dtabirca/design-patterns/blob/master/patterns/structural/Registry.php
 
-Abstract Factory - Creates an instance of several families of classes/	families of product objects
+## Behavioral
 
-Builder	- Separates object construction from its representation/ how a composite object gets created
+- Chain of Responsibility - pass the request along the chain until an object handles it - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/ChainOfResponsibility.php
+- Command - encapsulate request as an object, queue, log, undo - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/Command.php
+- Interpreter	- grammar and interpretation of a language - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/Interpreter.php
+- Iterator - sequentially access the elements of a collection - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/Iterator.php
+- Mediator - encapsulate objects interaction - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/Mediator.php
+- Memento	- capture and restore an object’s internal state - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/Memento.php
+- Null Object	- a default value of an object - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/NullObject.php
+- Observer (Publish/subscribe) - one-to-many change notification - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/Observer.php
+- Specification - check objects against clear business rules - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/Specification.php
+- State - alter object’s behavior when its state changes - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/State.php
+- Strategy - encapsulates algorithms in classes - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/Strategy.php
+- Template Method - skeleton of an algorithm, deferring steps to subclasses - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/TemplateMethod.php
+- Visitor	- a new operation to a class without change - https://github.com/dtabirca/design-patterns/blob/master/patterns/behavioral/Visitor.php
 
-Factory Method - Creates an instance of several derived classes. / subclass of object that is instantiated
+## Other
 
-Object Pool - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use.
+Concurrency patterns - multi-threaded  
+Lazy initialization - delay the creation of an object - check Singleton, Proxy  
+Front controller - centralized entry point for handling requests  
+Servant - helper class defining common functionality for a group of classes  
+Active Record - wrap a row of a database table in an object  
+Repository pattern - communication layer between the application and data source, with powerful querying capabilities  
+Active Object - a list of one time runnable commands  
+Monostate Object - dynamic public methods to get/set static private variables  
 
-Prototype - A fully initialized instance to be copied or cloned./class of object that is instantiated
-
-Singleton - A class of which only a single instance can exist./ 	the sole instance of a class
-
-
-STRUCTURAL PATTERNS
-If you want to form larger structures from different classes and objects as well as provide new functionalities to them, structures design patterns are all what you need. They consist of the following patterns:
-
-Name - Pattern
-
-Adapter	- Match interfaces of different classes./	interface to an object
-
-Bridge	- Separates an object’s interface from its implementation./ 	implementation of an object
-
-Composite - A tree structure of simple and composite objects./ 	structure and composition of an object
-
-Decorator -	Add responsibilities to objects dynamically./responsibilities of an object without subclassing
-
-Facade	- A single class that represents an entire subsystem./ interface to a subsystem
-
-Flyweight -	A fine-grained instance used for efficient sharing./storage costs of objects
-
-Private Class Data - Restricts accessor/ mutator access.
-
-Proxy - An object representing another object./how an object is accessed; its location
-
-
-BEHAVIORAL PATTERNS
-Behavioral design patterns really come into play if you want to deal with communication between objects. They consist of the following patterns:
-
-Name - Purpose
-
-Chain of Responsibility	- A way of passing a request between a chain of objects./object that can fulfill a request
-
-Command	Encapsulate a command request as an object./when and how a request is fulfilled
-
-Interpreter	A way to include language elements in a program./grammar and interpretation of a language
-
-Iterator	Sequentially access the elements of a collection./how an aggregate’s elements are accessed, traversed
-
-Mediator	Defines simplified communication between classes./how and which objects interact with each other
-
-Memento	Capture and restore an object’s internal state./what private information is stored outside an object, and when
-
-Null Object	Designed to act as a default value of an object.
-
-Observer	A way of notifying change to a number of classes./number of objects that depend on another object; how the dependent objects stay up to date
-
-State	Alter an object’s behavior when its state changes./states of an object
-
-Strategy	Encapsulates an algorithm inside a class./
-Template Method
-
-Template Method	Defer the exact steps of an algorithm to a subclass.
-
-Visitor	Defines a new operation to a class without change./operations that can be applied to object(s) without changing their class(es)

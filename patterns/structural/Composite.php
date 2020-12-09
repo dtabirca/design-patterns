@@ -6,7 +6,7 @@
  * Composite's great feature is the ability to run methods recursively over the whole tree structure and sum up the results.`
  * 
  * @category Design_Patterns
- * @package  Creational
+ * @package  Structural
  * @author   AltTab
  * @license  WTFPL https://en.wikipedia.org/wiki/WTFPL
  * @link     https://github.com

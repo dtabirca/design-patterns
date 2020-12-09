@@ -2,6 +2,7 @@
 
 /**
  * Flyweight Pattern 
+ * 
  * Used to minimise memory usage, a Flyweight shares common parts of state between multiple similar objects instead of keeping all of the data in each object. It is needed when a large amount of objects is used that don’t differ much in state. A common practice is to hold state in external data structures and pass them to the flyweight object when needed.
  * How to:
  * Divide fields of a class that will become a flyweight into two parts:
@@ -13,7 +14,7 @@
  * The client must store or calculate values of the extrinsic state (context) to be able to call methods of flyweight objects. For the sake of convenience, the extrinsic state along with the flyweight-referencing field may be moved to a separate context class.
  * 
  * @category Design_Patterns
- * @package  Creational
+ * @package  Structural
  * @author   AltTab
  * @license  WTFPL https://en.wikipedia.org/wiki/WTFPL
  * @link     https://github.com

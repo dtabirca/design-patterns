@@ -4,7 +4,7 @@
  * FluentInterface Test
  * 
  * @category Design_Patterns
- * @package  Creational
+ * @package  Structural
  * @author   AltTab
  * @license  WTFPL https://en.wikipedia.org/wiki/WTFPL
  * @link     https://github.com

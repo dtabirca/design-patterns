@@ -15,7 +15,7 @@
  * Clients should use the adapter via the client interface. This will let you change or extend the adapters without affecting the client code.
  *  
  * @category Design_Patterns
- * @package  Creational
+ * @package  Structural
  * @author   AltTab
  * @license  WTFPL https://en.wikipedia.org/wiki/WTFPL
  * @link     https://github.com

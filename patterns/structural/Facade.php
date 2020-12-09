@@ -11,7 +11,7 @@
  * If there are multiple creations for each method, it is not a Facade, it’s a Builder or a [Abstract|Static|Simple] Factory [Method].
  * 
  * @category Design_Patterns
- * @package  Creational
+ * @package  Structural
  * @author   AltTab
  * @license  WTFPL https://en.wikipedia.org/wiki/WTFPL
  * @link     https://github.com

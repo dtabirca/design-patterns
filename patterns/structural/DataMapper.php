@@ -7,7 +7,7 @@
  * The key point of this pattern is, unlike Active Record pattern, the data model follows Single Responsibility Principle.
  * 
  * @category Design_Patterns
- * @package  Creational
+ * @package  Structural
  * @author   AltTab
  * @license  WTFPL https://en.wikipedia.org/wiki/WTFPL
  * @link     https://github.com

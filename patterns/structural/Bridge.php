@@ -15,7 +15,7 @@
  * The client code should pass an implementation object to the abstraction’s constructor to associate one with the other. The client code should only depend on the Abstraction class. This way the client code can support any abstraction-implementation combination.
  * 
  * @category Design_Patterns
- * @package  Creational
+ * @package  Structural
  * @author   AltTab
  * @license  WTFPL https://en.wikipedia.org/wiki/WTFPL
  * @link     https://github.com

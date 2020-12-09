@@ -6,7 +6,7 @@
  * This introduces global state, which should be avoided at all times! Instead implement it using Dependency Injection!
  * 
  * @category Design_Patterns
- * @package  Creational
+ * @package  Structural
  * @author   AltTab
  * @license  WTFPL https://en.wikipedia.org/wiki/WTFPL
  * @link     https://github.com
