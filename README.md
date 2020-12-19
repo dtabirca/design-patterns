@@ -1,9 +1,9 @@
 ## A collection of practical examples with explanations for a better understanding of design patterns
 
-> S = Single Responsibility Principle. A class should have only one reason to change. Every class should only have responsibility over a single part of the functionality.
-> O = Open/Closed Principle. Open for extension, but closed for modification. Write classes that implement and adhere to interfaces, then type-hint against those interfaces.
-> L = The Liskov Substitution Principle. It states that child classes should never break the parent class type definitions (Subtypes must be substitutable for their base types).
-> I = The Interface Segregation Principle. No client should be forced to depend on methods it does not use. Use small, concept-specific interfaces.
+> S = Single Responsibility Principle. A class should have only one reason to change. Every class should only have responsibility over a single part of the functionality. 
+> O = Open/Closed Principle. Open for extension, but closed for modification. Write classes that implement and adhere to interfaces, then type-hint against those interfaces. 
+> L = The Liskov Substitution Principle. It states that child classes should never break the parent class type definitions (Subtypes must be substitutable for their base types). 
+> I = The Interface Segregation Principle. No client should be forced to depend on methods it does not use. Use small, concept-specific interfaces. 
 > D = The Dependency Inversion Principle. Do not depend upon concretions; depend upon abstractions instead. Dependencies should be interfaces/contracts or abstract classes rather than concrete implementations.
 
 ## Sources
