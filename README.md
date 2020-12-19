@@ -1,5 +1,11 @@
 ## A collection of practical examples with explanations for a better understanding of design patterns
 
+> S = Single Responsibility Principle. A class should have only one reason to change. Every class should only have responsibility over a single part of the functionality.
+> O = Open/Closed Principle. Open for extension, but closed for modification. Write classes that implement and adhere to interfaces, then type-hint against those interfaces.
+> L = The Liskov Substitution Principle. It states that child classes should never break the parent class type definitions (Subtypes must be substitutable for their base types).
+> I = The Interface Segregation Principle. No client should be forced to depend on methods it does not use. Use small, concept-specific interfaces.
+> D = The Dependency Inversion Principle. Do not depend upon concretions; depend upon abstractions instead. Dependencies should be interfaces/contracts or abstract classes rather than concrete implementations.
+
 ## Sources
 
 https://en.wikipedia.org/wiki/Software_design_pattern  
@@ -56,7 +62,8 @@ Lazy initialization - delay the creation of an object - check Singleton, Proxy
 Front controller - centralized entry point for handling requests  
 Servant - helper class defining common functionality for a group of classes  
 Active Record - wrap a row of a database table in an object  
-Repository pattern - communication layer between the application and data source, with powerful querying capabilities  
+Repository pattern - communication layer between the application and data source, with powerful querying capabilities  (Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.)
 Active Object - a list of one time runnable commands  
 Monostate Object - dynamic public methods to get/set static private variables  
-
+Service Locator is considered an anti-pattern, hides class dependencies instead of exposing them as you would do using the Dependency Injection.
+EAV -The Entity–attribute–value (EAV) model is a data model to describe entities where the number of attributes (properties, parameters) that can be used to describe them is potentially vast, but the number that will actually apply to a given entity is relatively modest.
